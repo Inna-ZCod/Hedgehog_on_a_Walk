@@ -192,7 +192,7 @@ def show_game_over_screen(score):
         text_small = font_medium.render("(нажми пробел, чтобы начать заново)", True, WHITE)
 
         # Отрисовка текста
-        screen.blit(text_large1, (SCREEN_WIDTH // 2 - text_large1.get_width() // 2, SCREEN_HEIGHT // 2 - 120))
+        screen.blit(text_large1, (SCREEN_WIDTH // 2 - text_large1.get_width() // 2, SCREEN_HEIGHT // 2 - 135))
         screen.blit(text_large2, (SCREEN_WIDTH // 2 - text_large2.get_width() // 2, SCREEN_HEIGHT // 2 - 50))
         screen.blit(text_medium, (SCREEN_WIDTH // 2 - text_medium.get_width() // 2, SCREEN_HEIGHT // 2 + 50))
         screen.blit(text_small, (SCREEN_WIDTH // 2 - text_small.get_width() // 2, SCREEN_HEIGHT // 2 + 100))
