@@ -33,14 +33,14 @@ screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
 pygame.display.set_caption("Ёжик на прогулке")
 
 # Загрузка спрайтов
-player_img_left = pygame.image.load('egle.png')
+player_img_left = pygame.image.load('pic/egle.png')
 player_img_left = pygame.transform.scale(player_img_left, PLAYER_SIZE)
 player_img_right = pygame.transform.flip(player_img_left, True, False)
-apple_image = pygame.image.load('aple_green.png')
+apple_image = pygame.image.load('pic/aple_green.png')
 apple_image = pygame.transform.scale(apple_image, (40, 40))
-brick_texture = pygame.image.load('briks3.png')
+brick_texture = pygame.image.load('pic/briks3.png')
 
-egle_start_image = pygame.image.load('egle_start.png')
+egle_start_image = pygame.image.load('pic/egle_start.png')
 egle_start_image = pygame.transform.scale(egle_start_image, (200, 200))  # Подгонка изображения под круг
 
 # Шрифты
