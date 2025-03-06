@@ -1,5 +1,6 @@
 # Ёжик на прогулке
 
+<img src="https://raw.githubusercontent.com/Inna-ZCod/Hedgehog_on_a_Walk/main/pic/game.png" alt="Заставка игры" width="400">
 
 "Ёжик на прогулке" — это простая 2D аркадная игра, написанная на Python с использованием Pygame. Цель игры — помочь ёжику собрать яблоки и избежать столкновений с препятствиями.
 
@@ -11,7 +12,8 @@
 - **Бонус:** За каждые 100 очков игрок получает дополнительную жизнь.
 - **Финишный экран:** Сообщение о завершении игры с возможностью её перезапуска.
 
-<img src="https://raw.githubusercontent.com/Inna-ZCod/Hedgehog_on_a_Walk/main/pic/game.png" alt="Кадр игры" width="400">
+
+![Кадры игры](https://raw.githubusercontent.com/Inna-ZCod/Hedgehog_on_a_Walk/main/pic/game.gif)
 
 
 ### Как играть
